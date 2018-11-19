@@ -17,5 +17,7 @@
 			<PmtInfId>${PmtInfId}</PmtInfId>
 			<PmtMtd>${PmtMtd}</PmtMtd>
 		</PmtInf>
+		<#list persons as person>
+		</#list>    
 	</CstmrDrctDbtInitn>
 </Document>
